@@ -50,7 +50,7 @@ function Manufec() {
 
         <CDBFooter className='footer'>
             <CDBBox display="flex" justifyContent='center' >
-                <small className="ml-2 mt-5">&copy; PHILTER, 2022-23. All rights reserved.</small>
+                <small className="ml-2 mt-3">&copy; PHILTER, 2022-23. All rights reserved.</small>
             </CDBBox>
         </CDBFooter>
 
