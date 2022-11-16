@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link, Outlet} from 'react-router-dom';
 
 function Header() {
 
@@ -12,7 +13,7 @@ function Header() {
 
         <Navbar bg='dark' variant='dark' expand='lg' sticky='top'>
           <Container>
-            <Navbar.Brand  style={{fontSize: 25, fontWeight: 'bold', textTransform: 'uppercase'}} href='#'>Philter</Navbar.Brand>
+            <Link style={{textDecoration: 'none'}} to='/'><Navbar.Brand  style={{fontSize: 25, fontWeight: 'bold', textTransform: 'uppercase'}} href='#'>Philter</Navbar.Brand></Link>
             <Navbar.Toggle />
             <Navbar.Collapse  className="justify-content-end" id='basic-navbar-nav'>
               <Nav style={{fontSize: 17, textTransform: 'uppercase'}}>
@@ -25,6 +26,8 @@ function Header() {
 
           </Container>
         </Navbar>
+
+        <Outlet  />
 
         {/* NAVBAR END */}
       </div>
