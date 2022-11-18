@@ -1,14 +1,11 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {CDBBox, CDBFooter, CDBLink, CDBContainer, CDBBreadcrumb, CDBIcon } from 'cdbreact';
+import {CDBContainer, CDBBreadcrumb, CDBIcon } from 'cdbreact';
 import add_product from './images/add_product.jpg';
 import track_product from './images/track_product.jpg';
-import dist from './images/dist.jpg';
-import './Manufec.css';
 import { Link } from 'react-router-dom';
 
 function Product() {
@@ -49,13 +46,6 @@ function Product() {
                 
             </Row>
         </Container>
-
-
-        <CDBFooter className='footer'>
-            <CDBBox display="flex" justifyContent='center' >
-                <small >&copy; PHILTER, 2022-23. All rights reserved.</small>
-            </CDBBox>
-        </CDBFooter>
 
     </div>
   )

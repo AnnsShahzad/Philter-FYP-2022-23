@@ -4,6 +4,7 @@ import './App.css';
 import Manufec from './components/Manufec';
 import Product from "./components/Product";
 import AddProduct from "./components/AddProduct";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="product" element={<Product />} />
           <Route path="addProduct"  element={<AddProduct />} />
         </Routes>
-        
+        <Footer />
       </Router>
     </div>
   );
