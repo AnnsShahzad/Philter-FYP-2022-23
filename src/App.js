@@ -5,6 +5,7 @@ import Manufec from './components/Manufec';
 import Product from "./components/Product";
 import AddProduct from "./components/AddProduct";
 import Footer from "./components/Footer";
+import Dist from "./components/Dist";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Manufec />} />
           <Route path="product" element={<Product />} />
           <Route path="addProduct"  element={<AddProduct />} />
+          <Route path="distributor" element={<Dist />} />
         </Routes>
         <Footer />
       </Router>

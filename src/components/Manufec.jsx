@@ -30,6 +30,7 @@ function Manufec() {
                         <Card.Title>Analytics</Card.Title>
                     </Card.Body>
                 </Card>
+            
                 
                 <Link style={{textDecoration: 'none', color: '#282828'}}  to='product'>
                     <Card className='mx-4' style={{ width: '18rem' }}>
@@ -40,13 +41,14 @@ function Manufec() {
                     </Card>
                 </Link>
 
-                <Card className='mx-4' style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={dist} />
-                    <Card.Body>
-                        <Card.Title>Distributor</Card.Title>
-                    </Card.Body>
-                </Card>
-                
+                <Link style={{textDecoration: 'none', color: '#282828'}} to='distributor'>
+                    <Card className='mx-4' style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={dist} />
+                        <Card.Body>
+                            <Card.Title>Distributor</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Link>
             </Row>
         </Container>
 
@@ -54,4 +56,4 @@ function Manufec() {
   )
 }
 
-export default Manufec
+export default Manufec;
