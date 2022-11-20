@@ -16,7 +16,7 @@ function Header()
         <Navbar bg='dark' variant='dark' expand='lg' sticky='top'>
           <Container>
             <Link style={{textDecoration: 'none'}} to='/'><Navbar.Brand  style={{fontSize: 25, fontWeight: 'bold', textTransform: 'uppercase'}} href=''>
-              <img src={logo} width={30} height={'auto'} className='mx-2'  />
+              <img alt='logo' src={logo} width={30} height={'auto'} className='mx-2'  />
               Philter</Navbar.Brand></Link>
             <Navbar.Toggle />
             <Navbar.Collapse  className="justify-content-end" id='basic-navbar-nav'>
