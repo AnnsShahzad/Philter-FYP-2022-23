@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link, Outlet} from 'react-router-dom';
+import logo from './images/logo.png';
 
 function Header() {
 
@@ -13,7 +14,9 @@ function Header() {
 
         <Navbar bg='dark' variant='dark' expand='lg' sticky='top'>
           <Container>
-            <Link style={{textDecoration: 'none'}} to='/'><Navbar.Brand  style={{fontSize: 25, fontWeight: 'bold', textTransform: 'uppercase'}} href='#'>Philter</Navbar.Brand></Link>
+            <Link style={{textDecoration: 'none'}} to='/'><Navbar.Brand  style={{fontSize: 25, fontWeight: 'bold', textTransform: 'uppercase'}} href=''>
+              <img src={logo} width={30} height={'auto'} className='mx-2'  />
+              Philter</Navbar.Brand></Link>
             <Navbar.Toggle />
             <Navbar.Collapse  className="justify-content-end" id='basic-navbar-nav'>
               <Nav style={{fontSize: 17, textTransform: 'uppercase'}}>
