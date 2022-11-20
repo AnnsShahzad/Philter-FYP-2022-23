@@ -23,14 +23,14 @@ function Manufec() {
         <Container>
             <Row xs={1} md={2} lg={3} className="justify-content-center">
                 
-                
-                <Card className='mx-4' style={{ width: '18rem'}}>
-                    <Card.Img variant="top" src={analytics} />
-                    <Card.Body>
-                        <Card.Title>Analytics</Card.Title>
-                    </Card.Body>
-                </Card>
-            
+                <Link style={{textDecoration: 'none', color: '#282828'}}  to='analytics'>
+                    <Card className='mx-4' style={{ width: '18rem'}}>
+                        <Card.Img variant="top" src={analytics} />
+                        <Card.Body>
+                            <Card.Title>Analytics</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Link>            
                 
                 <Link style={{textDecoration: 'none', color: '#282828'}}  to='product'>
                     <Card className='mx-4' style={{ width: '18rem' }}>

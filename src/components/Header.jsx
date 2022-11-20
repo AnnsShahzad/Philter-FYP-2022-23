@@ -17,10 +17,10 @@ function Header() {
             <Navbar.Toggle />
             <Navbar.Collapse  className="justify-content-end" id='basic-navbar-nav'>
               <Nav style={{fontSize: 17, textTransform: 'uppercase'}}>
-                <Nav.Link className='active' href='#'>Manufacturer</Nav.Link>
-                <Nav.Link href='#'>Distributor</Nav.Link>
-                <Nav.Link href='#'>Analytics</Nav.Link>
-                <Nav.Link href='#'>Account</Nav.Link>
+                <Nav.Link href=''><Link className='active' style={{textDecoration: 'none', color: '#D0D8DA'}} to='/'>Manufacturer</Link></Nav.Link>
+                <Nav.Link href=''><Link style={{textDecoration: 'none', color: '#D0D8DA'}} to='/distributor'>Distributor</Link></Nav.Link>
+                <Nav.Link href=''><Link style={{textDecoration: 'none', color: '#D0D8DA'}} to='/analytics'>Analytics</Link></Nav.Link>
+                <Nav.Link href=''><Link style={{textDecoration: 'none', color: '#D0D8DA'}} to='/'>Account</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
 

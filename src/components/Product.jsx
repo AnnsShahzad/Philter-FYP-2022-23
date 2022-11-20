@@ -37,12 +37,14 @@ function Product() {
                     </Card>
                 </Link>
 
-                <Card className='mx-4' style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={track_product} />
-                    <Card.Body>
-                        <Card.Title>Track Product</Card.Title>
-                    </Card.Body>
-                </Card>
+                <Link style={{textDecoration: 'none', color: '#282828'}} to='/trackProduct' >
+                    <Card className='mx-4' style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={track_product} />
+                        <Card.Body>
+                            <Card.Title>Track Product</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Link>    
                 
             </Row>
         </Container>

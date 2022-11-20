@@ -37,12 +37,14 @@ function Dist() {
                     </Card>
                 </Link>
 
-                <Card className='mx-4' style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={trackDist} />
-                    <Card.Body>
-                        <Card.Title>Track Distributor</Card.Title>
-                    </Card.Body>
-                </Card>
+                <Link style={{textDecoration: 'none', color: '#282828'}} to='/trackDistributor' >
+                    <Card className='mx-4' style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={trackDist} />
+                        <Card.Body>
+                            <Card.Title>Track Distributor</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Link>    
                 
             </Row>
         </Container>
