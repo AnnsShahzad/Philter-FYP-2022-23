@@ -6,7 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link, Outlet} from 'react-router-dom';
 import logo from './images/logo.png';
 
-function Header() {
+function Header() 
+{
 
     return (
       <div className="Header">
