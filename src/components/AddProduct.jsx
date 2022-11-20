@@ -1,6 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import {CDBBox, CDBFooter, CDBLink, CDBContainer, CDBBreadcrumb, CDBIcon } from 'cdbreact';

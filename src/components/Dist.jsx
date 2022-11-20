@@ -28,7 +28,7 @@ function Dist() {
         <Container>
             <Row xs={1} md={2} lg={3} className="justify-content-center">
                 
-                <Link style={{textDecoration: 'none', color: '#282828'}} to='/addProduct' >
+                <Link style={{textDecoration: 'none', color: '#282828'}} to='/addDistributor' >
                     <Card className='mx-4' style={{ width: '18rem'}}>
                         <Card.Img variant="top" src={addDist} />
                         <Card.Body>

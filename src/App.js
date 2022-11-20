@@ -6,6 +6,7 @@ import Product from "./components/Product";
 import AddProduct from "./components/AddProduct";
 import Footer from "./components/Footer";
 import Dist from "./components/Dist";
+import AddDist from "./components/AddDist";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="product" element={<Product />} />
           <Route path="addProduct"  element={<AddProduct />} />
           <Route path="distributor" element={<Dist />} />
+          <Route path="addDistributor" element={<AddDist />} />
         </Routes>
         <Footer />
       </Router>
